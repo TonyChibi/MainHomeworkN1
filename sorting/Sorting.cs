@@ -6,7 +6,7 @@ class Sorting{
             medium+=str[i]+"!";
         }
     }
-    if(medium.Length>1)
+    if(medium.Length>0)
     medium=medium.Remove(medium.Length-1,1);
     string []array=medium.Split("!").Select(x=>x.ToString()).ToArray();
     return array;
